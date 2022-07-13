@@ -1,0 +1,31 @@
+{
+  "name": "calculator-service",
+  "version": "1.0.0",
+  "description": "A GRPC service demonstrating unary, client stream, server stream, bidi stream through simple calculator service",
+  "main": "/server/index.js",
+  "scripts": {
+    "test": "nodemon server/index.js",
+    "server": "nodemon server/index.js",
+    "client":"node client/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ShivanshVerma-coder/grpc-nodejs-demo"
+  },
+  "keywords": [
+    "grpc",
+    "nodejs",
+    "simple",
+    "calculator",
+    "stephen",
+    "mareek"
+  ],
+  "author": "Shivansh Verma",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.13",
+    "grpc": "^1.24.11",
+    "nodemon": "^2.0.19",
+    "proto-loader": "^0.2.0"
+  }
+}
